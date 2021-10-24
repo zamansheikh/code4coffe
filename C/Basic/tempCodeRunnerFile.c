@@ -1,0 +1,2 @@
+
+        tranked = binary%10;
