@@ -15,7 +15,7 @@ int main()
             result = result * number;
             exponent--;
         }
-        printf("%d the pow %d is = %.3f \n", temp, expo, result);
+        printf("%d the pow %d is = %.10f \n", temp, expo, result);
     }
     else
     {
@@ -25,7 +25,7 @@ int main()
             result = result *(1.0 / number);
             exponent++;
         }
-        printf("%d the pow %d is = %.3f \n", temp, expo, result);
+        printf("%d the pow %d is = %.10f \n", temp, expo, result);
     }
 
     return 0;
