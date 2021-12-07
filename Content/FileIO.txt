@@ -1,0 +1,53 @@
+ReadME
+============>
+
+Files are used to store data & information
+Information is store in two types of memory:
+1. RAM - Random Access Memory -> Volatile Memory
+2. ROM - Read Only Memory -> NON-volatile memory
+
+Two types of files:
+1. Text files - .txt
+2. Binary files - .bin
+
+In c we can perform these type of high-level operations
+1. Open a file
+2. Read a file
+3. Write a file
+4. Close a file
+
+
+Opening a file, creating a new file, deleting a file ,editing a file
+
+stdio.h comtains functions for file operations
+fopen() - open a file
+You need a FILE type pointer to store the file handle
+FILE * ptr ;
+ptr = fopen("FileLocation","Mode");
+ptr = fopen("c:/Users/filename.txt","r");
+ptr = fopen("c:/Users/filename.txt","w");
+ptr = fopen("c:/Users/filename.txt","a");
+ptr = fopen("c:/Users/filename.bin","wb");
+ptr = fopen("c:/Users/filename.bin","rb");
+
+
+fie Opening Mode
+
+r - read
+w - write
+a - append
+
+
+reading a file
+fscanf(ptr,"%s",&variable);
+fscanf(ptr,"%d",&variable);
+fscanf(ptr,"%f",&variable);
+fscanf(ptr,"%lf",&variable);
+
+print
+fprintf(ptr,"%s",variable);
+fprintf(ptr,"%d",variable);
+fprintf(ptr,"%f",variable);
+
+
+

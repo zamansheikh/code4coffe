@@ -14,7 +14,10 @@ void insertOk(int);
 void disSerial();
 void deleteFirst();
 void deleteAll();
+void dellAll();
 void display();
+void deleteLast();
+void deletePos(int);
 
 
 int main()
@@ -23,7 +26,7 @@ home:
     system("cls");
     printf("==================Welcome to Nude/Link\n");
     printf("==================Choise Option for Link Babe\n");
-    printf("==================Choice I for Input\n==================Choice D for Delete\n==================Choice S for Info\n==================Choice E for Exit\n");
+    printf("==================Choice I for Input\n==================Choice D for Delete\n==================Choice S for Show All\n==================Choice E for Exit\n");
 
     printf("====================================\n");
     printf("==>: ");
@@ -40,7 +43,9 @@ home:
     }
     else if (choice == 'S')
     {
+        disSerial();
         display();
+        getch();
         goto home;
     }
     else if (choice == 'E')
@@ -102,7 +107,7 @@ void insertOk(int num)
 void display()
 {
     struct node *temp;
-    system("cls");
+    //system("cls");
     printf("********************************\n");
     disSerial();
     printf("We are displaying\n");
@@ -122,7 +127,7 @@ void display()
             count++;
         }
     }
-    getch();
+    //getch();
 }
 
 void disSerial()
@@ -153,13 +158,14 @@ deleteAll()
     back:
     printf("Available Nodes in Project\n");
     disSerial();
-    printf("to deleteAll choice D\nFirst for F\nLast for L\nPosition number\n");
+    display();
+    printf("to deleteAll choice D\nFirst for F\nLast for L\nPosition for P\nPress Q for Exit\n");
     
     printf("==>: ");
     int choice = toupper(getch());
     if (choice == 'D')
     {
-        
+        dellAll();
         goto back;
     }
     else if (choice == 'F')
@@ -169,14 +175,21 @@ deleteAll()
     }
     else if (choice == 'L')
     {
-        
+        deleteLast();
+        goto back;
     }
     else if (choice == 'P')
     {
-        
+        int num0;
+        scanf("%d",&num0);
+        deletePos(num0);
+        goto back;
+
     }
+    else if (choice == 'Q')
+    return;
     else goto back;
-}
+    }
 
 void deleteFirst()
 {
@@ -186,4 +199,43 @@ void deleteFirst()
     head = temp;
     free(del);
 
+}
+//create function for delete last node
+void deleteLast()
+{
+    struct node * temp, * del;
+    temp = head;
+    while (temp->next != NULL)
+    {
+        temp = temp->next;
+    }
+    del = temp;
+    temp = temp->next;
+    free(del);
+}
+//delete node by position
+void deletePos(int num)
+{
+    struct node * temp, * del;
+    temp = head;
+    for (int i = 1; i < num; i++)
+    {
+        temp = temp->next;
+    }
+    del = temp;
+    temp = temp->next;
+    free(del);
+}
+//delete all node
+void dellAll()
+{
+    struct node * temp, * del;
+    temp = head;
+    while (temp != NULL)
+    {
+        del = temp;
+        temp = temp->next;
+        free(del);
+    }
+    head = NULL;
 }
