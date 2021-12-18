@@ -50,9 +50,9 @@ struct node* insertRight(struct node* root, int value) {
 
 int main() {
   system("cls");
-  struct node* root = createNode(4);
-  insertLeft(root, 1);
-  insertRight(root, 14);
+  struct node* root = createNode(1);
+  insertLeft(root, 2);
+  insertRight(root, 3);
   insertRight(root->left, 3);
   insertLeft(root->left->right, 2);
   insertLeft(root->right, 10);
