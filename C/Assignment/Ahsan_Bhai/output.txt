@@ -1,0 +1,70 @@
+Student 1
+Name: Tamim
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 3.8
+Student 2
+Name: Ahasan
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 3.8
+Student 3
+Name: Zaman
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 4.0
+Student 4
+Name: Zahid
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 4.0
+Student 5
+Name: Sajeda
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 4.0
+Student 6
+Name: Sajid
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 4.0
+Student 7
+Name: Shamsuzzaman
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 4.0
+Student 8
+Name: Zaman
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 4.0
+Student 9
+Name: Sadaf
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 4.0
+Student 10
+Name: Jannatul
+Id: 11073054
+Subject 1 Marks:10 20 28 37 
+Subject 2 Marks:10 18 30 35 
+Subject 3 Marks:10 15 18 34 
+CGPA: 4.0

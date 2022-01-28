@@ -1,0 +1,30 @@
+Student 1:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 2:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 3:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 4:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 5:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 6:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 7:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 8:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 9:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
+Student 10:Subject 1 total:: 95
+Subject 2 total:: 188
+Subject 3 total:: 265
