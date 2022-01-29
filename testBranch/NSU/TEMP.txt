@@ -1,0 +1,19 @@
+2) Write a structure called PlaneTicket that has 3 members: a character array Name of length
+100, a character array Destination of length 100, a float TicketPrice. Declare 2 variables of
+structure type PlaneTicket and initialize them with the following data:
+1) Name: Monir, Destination: Bombay, Ticket Price: 22000.25
+2) Name: Sharmin, Destination: Bangkok, Ticket Price: 12500.75
+
+
+3) Suppose you are hired by a software company to create a student registry of 100 students.
+Write a structure called Student that has 4 members: an integer StudentID, a
+character array Name of length 50, a float CGPA and a character array Major of length 20.
+b) Write a function called HighestGPA that takes an array of structures as an input
+parameter. The function then prints the information of the student(s) with highest CGPA.
+
+
+4) Write a C program that takes a string input from the user and replaces all the vowels in that
+string with ‘#’.
+Sample input/output:
+Please enter string: CSE115 is difficult.
+Modified String: #S#115 #s d#ff#c#lt.
