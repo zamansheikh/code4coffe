@@ -43,8 +43,10 @@ public class App {
                 assignment09.assign09();
                 break;
                 case 10:
+                assignment10.assign10();
                 break;
                 case 11:
+                assignment11.assign11();
                 break;
             }
         }
