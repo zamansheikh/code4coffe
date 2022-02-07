@@ -4,14 +4,14 @@ public class assignment06 {
         System.out.println("Write a program to find the power for a given base and exponent.");
             Scanner input = new Scanner(System.in);
             System.out.println("Enter a Base: ");
-            int n = input.nextInt();
+            int base = input.nextInt();
             System.out.println("Enter an Exponent: ");
-            int m = input.nextInt();
-            int power = 1;
-            for (int i = 1; i <= m; i++){
-                power *= n;
+            int exp = input.nextInt();
+            for (int i = 0; i < exp; i++) {
+                if (Math.pow(base, i) == exp) {
+                    System.out.println("The power is: " + i);
+                }
             }
-            System.out.println("Power of " + n + "^" + m + " is " + power);
 
             System.out.println("Press any key to continue...");
             input.next();
