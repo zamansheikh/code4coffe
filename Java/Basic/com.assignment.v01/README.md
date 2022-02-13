@@ -1,5 +1,8 @@
 ## Zaman$4031 || Shamsuzzaman
 ##Assignment Done 
+
+Code Directory:: Click >> src >> app.java 
+
 Practice
 1. Write a program to find the grade for a given mark according to the grading rule of your
 university.
