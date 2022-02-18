@@ -10,8 +10,9 @@
 			"iostream": "cpp"
 		},
 		"java.project.sourcePaths": [
+			"Java/Basic/com.assignment.v02/src",
 			"Java/Basic/com.assignment.v01/src",
-			"Java/Basic/com.assignment.v02/src"
+			"Java/Basic/com.assignment.v03/src"
 		]
 	}
 }

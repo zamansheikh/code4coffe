@@ -19,7 +19,7 @@ public class student {
             isPass = false;
         }
     }
-    public static void viewInfo() {
+    public void viewInfo() {
         System.out.println("Name: " + name);
         System.out.println("ID: " + ID);
         System.out.println("Age: " + age);
