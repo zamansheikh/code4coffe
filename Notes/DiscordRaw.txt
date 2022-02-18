@@ -1,0 +1,48 @@
+How to send code in discord ;
+
+```languageNameExtension
+
+    code{
+        //code
+    }
+```   
+Example:
+```c
+    #include <stdio.h>
+    int main()
+    {
+        printf("Hello World");
+        return 0;
+    }
+```
+To compile:
+use ;compile before the code
+Example:
+;compile
+```c
+    #include <stdio.h>
+    int main()
+    {
+        printf("Hello World");
+        return 0;
+    }
+```
+
+//compile with input
+;compile
+```
+29 39 4
+```
+```cpp
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int a,b,c;
+        cin>>a>>b>>c;
+        cout<<a+b+c;
+        return 0;
+    }
+```
+
+//29 39 4 is the input
