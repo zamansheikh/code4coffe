@@ -11,7 +11,8 @@
 		},
 		"java.project.sourcePaths": [
 			"Java/Basic/myFirstJavaProject",
-			"Java/Basic/com.assignment.v02/task01"
+			"Java/Basic/com.assignment.v02/task01",
+			"Java/Basic/com.assignment.v02/task02"
 		],
 		"java.dependency.syncWithFolderExplorer": true,
 		"java.dependency.packagePresentation": "flat"
