@@ -1,12 +1,16 @@
-package myFirstJavaProject;
 import java.util.Scanner;
+
 public class student {
     int id;
     String name;
     String Department;
     int courseNumber;
     int mark;
-    //Constructor
+
+    // Constructor
+    student() {
+    }
+
     student(int id, String name, String Department, int courseNumber, int mark) {
         this.id = id;
         this.name = name;
@@ -14,8 +18,18 @@ public class student {
         this.courseNumber = courseNumber;
         this.mark = mark;
     }
-    //Method _input
-    public static void studentmethod() {
+
+    // Method
+    void putIn(int id, String name, String Department, int courseNumber, int mark) {
+        this.id = id;
+        this.name = name;
+        this.Department = Department;
+        this.courseNumber = courseNumber;
+        this.mark = mark;
+    }
+
+    // Method _input
+    public void studentmethod() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter student id: ");
         int id = input.nextInt();
@@ -27,12 +41,11 @@ public class student {
         int courseNumber = input.nextInt();
         System.out.println("Enter student mark: ");
         int mark = input.nextInt();
-        student myStudent = new student(id, name, Department, courseNumber, mark);
-        
+        putIn(id, name, Department, courseNumber, mark);
     }
 
-    //print method
-    public static void studentprint() {
+    // print method
+    public void studentprint() {
         System.out.println("Student ID: " + id);
         System.out.println("Student Name: " + name);
         System.out.println("Student Department: " + Department);
@@ -44,6 +57,5 @@ public class student {
             System.out.println("Student failed");
         }
     }
-    
-    
+
 }

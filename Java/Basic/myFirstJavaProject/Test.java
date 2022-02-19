@@ -1,11 +1,15 @@
-package myFirstJavaProject;
-import java.util.Scanner;
 
-import javax.sound.sampled.SourceDataLine;
+
 public class Test {
     public static void main(String[] args) {
-        // student.studentmethod();
-        // student.studentprint();
-        
-    }   
+
+        student[] myStudents = new student[5];
+
+        for (int i = 0; i < myStudents.length -3; i++) {
+            myStudents[i] = new student();
+            myStudents[i].studentmethod();
+            myStudents[i].studentprint();
+        }
+
+    }
 }
