@@ -6,27 +6,7 @@ public class student {
     String Department;
     int courseNumber;
     int mark;
-
-    // Constructor
-    student() {
-    }
-
-    student(int id, String name, String Department, int courseNumber, int mark) {
-        this.id = id;
-        this.name = name;
-        this.Department = Department;
-        this.courseNumber = courseNumber;
-        this.mark = mark;
-    }
-
-    // Method
-    void putIn(int id, String name, String Department, int courseNumber, int mark) {
-        this.id = id;
-        this.name = name;
-        this.Department = Department;
-        this.courseNumber = courseNumber;
-        this.mark = mark;
-    }
+    
 
     // Method _input
     public void studentmethod() {
@@ -41,7 +21,11 @@ public class student {
         int courseNumber = input.nextInt();
         System.out.println("Enter student mark: ");
         int mark = input.nextInt();
-        putIn(id, name, Department, courseNumber, mark);
+        this.name = name;
+        this.id = id;
+        this.Department = Department;
+        this.courseNumber = courseNumber;
+        this.mark = mark;
     }
 
     // print method

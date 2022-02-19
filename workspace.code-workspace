@@ -10,7 +10,8 @@
 			"iostream": "cpp"
 		},
 		"java.project.sourcePaths": [
-			"Java/Basic/myFirstJavaProject"
+			"Java/Basic/myFirstJavaProject",
+			"Java/Basic/com.assignment.v02/task01"
 		],
 		"java.dependency.syncWithFolderExplorer": true,
 		"java.dependency.packagePresentation": "flat"
