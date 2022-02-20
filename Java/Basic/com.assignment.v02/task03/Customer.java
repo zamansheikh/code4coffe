@@ -5,7 +5,9 @@ class Customer {
     String customerId;
     String customerName;
     double customerBill;
-    Customer(){}
+    Customer(){
+        this("NA","NA",0.0);
+    }
     Customer(String customerId, String customerName, double customerBill){
         this.customerId = customerId;
         this.customerName = customerName;

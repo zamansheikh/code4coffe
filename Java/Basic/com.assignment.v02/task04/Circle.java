@@ -1,7 +1,9 @@
 import java.lang.Math;
 public class Circle {
     private double radius;
-    Circle(){}
+    Circle(){
+        this(0.0);
+    }
     Circle(double radius){
         this.radius = radius;
     }

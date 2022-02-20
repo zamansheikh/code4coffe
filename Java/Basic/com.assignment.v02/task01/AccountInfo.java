@@ -22,6 +22,4 @@ class AccountInfo{
         System.out.println("Name: " + this.name);
         System.out.println("Balance: " + this.balance);
     }
-        
-
 }

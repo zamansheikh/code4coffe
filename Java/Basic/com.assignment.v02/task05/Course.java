@@ -1,9 +1,9 @@
 public class Course {
     private String coureName;
-    private String[] students ;
+    private String[] students = new String[100];
     private int numberOfStudents;
 
-    public void CourseName ( String courseName){
+    public Course( String courseName){
         this.coureName = courseName;
     }
     public String getCourseName(){
@@ -14,13 +14,21 @@ public class Course {
         numberOfStudents++;
     }
     public void dropStudent(String student){
-        students[numberOfStudents] = student;
-        numberOfStudents--;
+        for( int i = 0; i < numberOfStudents; i++){
+            if( student == students[i]){
+                for( int j = i; j < numberOfStudents; j++){
+                    students[j] = students[j+1];
+                }
+                numberOfStudents--;
+                return;
+            }
+        }
+        System.out.println("Student not found");
     }
-    public getStudent (){
-        return this.students;
+    public String[] getStudent (){
+        return students;
     }
-    public getNumberOfStudents(){
+    public int getNumberOfStudents(){
         return numberOfStudents;
     }
     
