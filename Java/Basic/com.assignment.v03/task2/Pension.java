@@ -1,3 +1,4 @@
+// package task2;
 public class Pension extends Employee {
     private int number_of_years;
     private double lastBasic;
@@ -8,18 +9,7 @@ public class Pension extends Employee {
     }
     void DisplayPension(){
         double pension = 0;
-        if(number_of_years >= 10){
-            pension = lastBasic * 0.1;
-        }
-        else if(number_of_years >= 5){
-            pension = lastBasic * 0.05;
-        }
-        else if(number_of_years >= 2){
-            pension = lastBasic * 0.02;
-        }
-        else{
-            pension = lastBasic * 0.01;
-        }
+        pension = number_of_years * 10 * (lastBasic * 7);
         System.out.println("Pension: " + pension);
     }
     
