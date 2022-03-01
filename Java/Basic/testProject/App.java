@@ -1,9 +1,9 @@
-import java.util.Scanner;
+
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Scanner xyz = new Scanner(System.in);
-        
-        System.out.println(xyz.);
+        Salaryinfo s = new Salaryinfo(111, "Zaman", "df", "df", "df", "df", 5000);
+        s.Calculate_salary();
+    }
 
 }
