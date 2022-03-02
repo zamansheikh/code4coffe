@@ -17,4 +17,13 @@ public class Sphere extends GeometricStructure {
     public void setRadius(double radius) {
         this.radius = radius;
     }
+
+    double getArea(){
+        double area = 4 * Math.PI * radius; 
+        return area;
+    }
+    double getVolume(){
+        double volume = 4* Math.PI * (radius * radius *radius);
+        return volume;
+    }
 }

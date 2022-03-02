@@ -54,13 +54,14 @@
 			"typeinfo": "cpp"
 		},
 		"java.project.sourcePaths": [
+			"Java/Exam",
 			"Java/Basic/myFirstJavaProject",
 			"Java/Basic/com.assignment.v02/task05",
 			"Java/Basic/com.assignment.v02/task04",
 			"Java/Basic/com.assignment.v02/task03",
 			"Java/Basic/com.assignment.v02/task02",
 			"Java/Basic/com.assignment.v02/task01",
-			"Java/Exam"
+			"Java/Basic/com.assignment.v03/task4"
 		],
 		"java.dependency.syncWithFolderExplorer": true,
 		"java.dependency.packagePresentation": "flat"

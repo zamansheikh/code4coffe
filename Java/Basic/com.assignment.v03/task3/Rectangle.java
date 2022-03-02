@@ -21,7 +21,13 @@ public class Rectangle extends GeometricStructure {
         this.breadth = breadth;
     }
 
+    double getArea(){
+        return length * breadth;
 
+    }
 
+    double getCircumferece(){
+        return 2 * length * breadth;
+    }
 
 }

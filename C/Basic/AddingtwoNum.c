@@ -3,14 +3,13 @@
 //UserSnippetBy ZAMAN SHEIKH v0.1
 int withoutOperator(int , int);
 
-int main()
+void main()
 {
     printf("Input Two Number: \n");
     int a , b ;
     scanf("%d %d", &a, &b);
     printf("The sum is %d\n",withoutOperator(a,b));
 
-    return 0;
 }
 
 int withoutOperator(int a, int b)
