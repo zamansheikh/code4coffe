@@ -1,33 +1,28 @@
-package testProject;
-
-public class Salaryinfo extends Employee {
-    String month;
-    double basic_salary;
-    Salaryinfo(){
-        basic_salary = 5000;
+// package task2;
+public class SalaryInfo extends Employee {
+    String Month;
+    double Basic_Salary;
+    SalaryInfo(){
+        super();
     }
-    Salaryinfo(int id, String name, String dept, String Road_No, String house_no, String City){
-        super(id, name, dept, Road_No, house_no, City);
-        this.month = month;
-        this.basic_salary = basic_salary;
+    SalaryInfo(int id, String name, String Dept, String Month, double Basic_Salary){
+        super(id, name, Dept);
+        this.Month = Month;
+        this.Basic_Salary = Basic_Salary;
     }
-
-
-
-    void Calculate_salary() {
-        if (basic_salary >= 3000){
-            double salary = basic_salary*1.4;
-            System.out.println("Salary of "+Name+" is "+salary);
-        }
-        else {
-            double salary = basic_salary*1.5;
-            System.out.println("Salary of "+Name+" is "+salary);
-        }
+    void CalculateSalary(){
+        double salary;
+        double houseRent = Basic_Salary >= 30000 ?  Basic_Salary * 0.6 : Basic_Salary * 0.5;
+        salary = Basic_Salary + houseRent;
+        System.out.println("Total Salary: " + salary);
     }
-    void Display_salary() {
-        System.out.println("Salary of "+Name+" is "+basic_salary);
-        
+    void DisplaySalary (){
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Department: " + Dept);
+        System.out.println("Month: " + Month);
+        System.out.println("Basic Salary: " + Basic_Salary);
+        CalculateSalary();
     }
 
-   
 }
