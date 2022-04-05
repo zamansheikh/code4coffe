@@ -2,7 +2,7 @@
 int main()
 {
     const int n;
-    scanf("%d", &n) gh 
+    scanf("%d", &n);
     int age[n];
     int i;
     for (i = 0; i < n; i++)
